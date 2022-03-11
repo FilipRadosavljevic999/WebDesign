@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+*{
+	
+	margin: 0px ;
+	padding: 0px;
+}
+h1{
+	color:#E0EEEE;
+}
+h2{
+	color:#E0EEEE;
+}
+p{
+	color:#E0EEEE;
+}
+td{
+	color:#E0EEEE;
+}
+th{
+	color:#E0EEEE;
+}
+figcaption{
+	color:#E0EEEE;
+	font-size:35px;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	background-color:#009ACD;
+}
+.cistac{
+	clear: both;
+}
+#zaglavlje{
+	width:100%;
+	background-color:#00688B;
+	height:150px;
+}
+#logo{
+	width: 150px;
+	height: 100px;
+	float:left;
+	margin-top: 25px; 
+	margin-left:20px;
+}
+.logoTekst{
+	width:150px;
+	height:100px;
+}
+#slikaLogo{
+	width:100%;
+	height: 60px;
+}
+#meni {
+	float:right;
+	width:1000px;
+	height:100px;
+	margin-top: 25px;
+	margin-right:30px;
+	float:right;
+	/*border:1px solid black;*/
+}
+#meni ul{
+	display:flex;
+	justify-content:space-around;
+}
+#meni ul li{
+	font-size: 30px;
+}
+#meni ul li a{
+	color:#F0F8FF;
+}
+#meni ul li a:hover{
+	font-size:40px;
+}
+#sredina{
+	background-image:url("../img/slika1.jpeg");
+	height:1000px;
+	background-size: 100% 1000px;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	padding-top: 200px;
+}
+#tekstSredine{
+	width:100%;
+	text-align: center;
+}
+#tekstSredine h1{
+	font-size:100px;
+	color:#E0EEEE;
+}
+#Tekstic{
+	width:800px;
+	height:900px;
+	margin:10px auto;
+}
+#Tekstic h1{
+	font-size:70px;
+	text-align:center;
+}
+#Tekstic p{
+	font-size:30px;
+	text-align:justify;
+}
+
+
+
+
+
+/*GALERIJA*/
+#galerija{
+	text-align: center;
+	width: 1200px;
+	margin: 0px auto;
+	padding: 30px 0px;
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+}
+#galerija header {
+	width:100%;
+}
+.slikeGalerija{
+	width: 500px;
+	min-height: 300px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}	
+#galerija header h2{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.slika{
+	width: 450px;
+	height:350px;
+	border-radius: 10px;
+}
+#galerija figcaption{
+	font-size: 25px;
+	padding:10px 0px;
+	text-align:center;
+}
+#galerija .slika:hover { 
+	width:490px;
+	height:390px;
+}
+#kontakt{
+	width: 100%;
+	height: 460px;
+	margin: 20px auto;
+	background: linear-gradient(to top, #4169E1, #4876FF); 
+}
+#kontakt h2{
+	font-size: 30px;
+	text-align:center;
+	color:#E0EEEE;
+}
+#kontakt form input{
+	font-size:20px;
+}
+.red{
+	font-size:20px;
+}
+#kontakt form textarea{
+	font-size: 20px;
+}	
+#kontakt form input[ type="submit"]{
+	font-size:25px;
+	color:#000080;
+}
+#kontakt form input[ type="reset"]{
+		font-size:25px;
+		color:#000080;
+}
+#kontakt form input[ type="reset"]:hover{
+	font-size:27px;
+}
+#kontakt form input[ type="submit"]:hover{
+	font-size:27px;
+}
+
+table{
+	margin: 0px auto;
+	color:blue;
+}
+footer{
+	background-color: #00688B;
+	width:100%;
+	border:1px solid #00688B;
+	margin-top: 20px;
+}
+footer p{
+	font-size:35px;
+	text-align:center
+}
+#imena{
+	width:100%;
+	margin-top:10px;
+}
+
+#sitemap{
+	width:500px; 
+	height:70px;
+	margin:35px auto;
+}
+.sit{
+	float:left;
+	margin-top:10px;
+	margin-left:40px;
+}
+.sit a{
+	color:black;
+}
+.RSSslika{
+	width:50px;
+	height:50px;
+}
+.RSSslika:hover{
+	width:55px;
+	height:55px;
+}
+#imena a:hover{
+	text-decoration:underline;
+	
+}
+/*Znamenitosti*/
+
+
+
+
+#znamNaslov {
+	width:100%;
+	height:50px;
+	margin:10px auto;
+	
+}
+#znamNaslov h1{
+	text-align:center;
+	font-size:50px;
+}
+.znamenitosti{
+	width: 1000px;
+	height:470px;
+	margin:10px auto;
+	
+}
+.kalemegdan{
+	width:900px;
+	height:550px;
+	margin:10px auto;
+	display:flex;
+	justify-content:space-around;
+	margin-left:10px;
+}
+.slikaZnam{
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+}
+.znamenitosti h2{
+	
+	text-align:center;
+	font-size:35px;
+}
+.kalemegdan p{
+	text-align: justify;
+	margin-left: 40px;
+	font-size:17px;
+}
+.slikaZnam:hover{
+	width:315px;
+	height:315px;
+}
+
+
+/*Autor*/
+
+
+
+#okvirAutor{
+	width:100%;
+	height:800px;
+	display:flex;
+	justify-content:space-around;
+	margin-top: 10px;
+}
+#slikaAutor{
+	width:40%;
+	height:700px;
+	margin: 10px 10px;;
+}
+#tabela{
+	width:50%;
+	height:500px;
+	margin: 10px 10px;
+}
+#tabelaAutor{
+	font-size:20px;
+	float:left;
+}
+#autorislika{
+	width: 100%;
+	height: 700px;
+	border-radius: 10px;
+}
+#Imeautora{
+	width:100%;
+}
+#Imeautora h1{
+	text-align:center;
+}
+#futer h2{
+	color:white;
+	text-align:center;
+	font-size:25px;
+	display:flex;
+	justify-content:center;
+}
+	
+/*.div{
+	width:100%;
+	height:1000px;
+	background-color: black;
+	border-radius: 70px;
+}*/
+
+
+
+
+
+
+
+
+
+
